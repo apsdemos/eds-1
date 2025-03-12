@@ -28,12 +28,16 @@
           "valueType": "string"
         },
         {
-          "component": "text",
+          "component": "custom-asset-namespace:custom-asset-mimetype",
           "valueType": "string",
-          "name": "imageAlt",
-          "label": "Alt",
-          "value": ""
+          "name": "imageMimeType"
         },
+        {
+          "component": "text",
+          "name": "imageAlt",
+          "label": "Alt Text 1",
+          "valueType": "string"
+        }
         {
           "component": "richtext",
           "name": "text",
