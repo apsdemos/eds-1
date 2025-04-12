@@ -162,7 +162,7 @@
         "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-        "configUrl": "https://raw.githubusercontent.com/guptapawan86/pawan-demo/refs/heads/main/tools/asset-selector/image.config.json",
+        "configUrl": "https://raw.githubusercontent.com/apsdemos/eds-1/refs/heads/feat-asset-selector/tools/asset-selector/image.config.json",
         "valueType": "string"
       },
       {
