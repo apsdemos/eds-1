@@ -32,6 +32,12 @@
             "name": "imageTitle",
             "label": "Alt Text",
             "valueType": "string"
+          },
+          {
+            "component": "text",
+            "name": "something",
+            "label": "Something else Alt Text",
+            "valueType": "string"
           }
         ]
       }
