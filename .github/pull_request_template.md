@@ -4,14 +4,14 @@
 <!-- description goes here -->
 
 <!-- please replace <number> with the number of your JIRA ticket -->
-[Jira Ticket](https://qantas.atlassian.net/browse/QRB-<number>)
+[Jira Ticket](https://abc.atlassian.net/browse/QRB-<number>)
 
 Figma Design (if required): <!-- link to Figma -->
 
 ## Test URLs
 <!-- replace <branch> with your branch name -->
 - Before: https://main--site8--apsdemos.aem.page/
-- After: https://<branch>.dev.qantas.com/
+- After: https://<branch>.dev.abc.com/
 
 ## Screenshots (if visual)
 <!-- image goes here -->
