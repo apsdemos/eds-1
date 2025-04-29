@@ -156,6 +156,30 @@
     ]
   },
   {
+    "id": "custom-asset-one",
+    "fields": [
+      {
+        "component": "custom-asset-namespace:custom-asset",
+        "name": "image",
+        "label": "Image",
+        "configUrl": "https://raw.githubusercontent.com/apsdemos/eds-1/refs/heads/feat-asset-selector/tools/asset-selector/image.config.json",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "imageTitle",
+        "label": "Alt Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "something",
+        "label": "Something else Alt Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
@@ -169,24 +193,28 @@
     "id": "hero",
     "fields": [
       {
-        "component": "reference",
-        "valueType": "string",
+        "component": "custom-asset-namespace:custom-asset",
         "name": "image",
         "label": "Image",
-        "multi": false
+        "configUrl": "https://main--site4--apsdemos.aem.page/tools/asset-selector/image.config.json",
+        "valueType": "string"
+      },
+      {
+        "component": "custom-asset-namespace:custom-asset-mimetype",
+        "valueType": "string",
+        "name": "imageMimeType"
       },
       {
         "component": "text",
-        "valueType": "string",
         "name": "imageAlt",
-        "label": "Alt",
-        "value": ""
+        "label": "Alt Text 1",
+        "valueType": "string"
       },
       {
         "component": "richtext",
         "name": "text",
         "value": "",
-        "label": "Text",
+        "label": "Text 1",
         "valueType": "string"
       }
     ]
